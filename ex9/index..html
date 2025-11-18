@@ -1,14 +1,19 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pr-br">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<title>Mini Carrinho</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-	
+    <button class="botao" onclick="comprar()" >COMPRAR</button>
+    <button class="botao" onclick="verCarrinho()">CARRINHO</button>
+	<button class="voltar" onclick="voltar()" style="display: none" id="voltar">VOLTAR</button>
+    
+    <div id="produtos"></div>
+    
+    <input class="compras" type="number">
+    <button class="compras" onclick="enviar()">COMPRAR</button>
 </body>
 <script src="script.js"></script>
 </html>
-
