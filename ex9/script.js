@@ -28,6 +28,7 @@ function carrinho(){
     function contagem(){
         return carrinho.length
     }
+
     function verItem(id){
         return carrinho[id]
     }
@@ -82,4 +83,5 @@ function voltar(){
     document.getElementById('voltar').style.display = 'none'
     trocar(botao)
     produtos.style.display = 'none'
+
 }
